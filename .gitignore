@@ -1,0 +1,26 @@
+# Candidate-specific private information
+private/
+
+# Generated job-search reports
+output/*
+!output/.gitkeep
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# OpenCode local/session data
+.opencode/session/
+.opencode/cache/
+
+# Node.js
+node_modules/
+dist/
+coverage/
+
+# macOS
+.DS_Store
+
+# VS Code user-specific settings
+.vscode/
